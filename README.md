@@ -1,18 +1,4 @@
-Preparación primer hackatón
-¡Tienes toda la razón! Ese es el error clásico de los hackatones. Los jueces (o cualquiera que descargue tu código) van a intentar correrlo, verán que la cámara no responde o que la API falla, y no sabrán por qué. Un buen README.md es lo que separa un proyecto de "código tirado" a un proyecto profesional.
 
-No te preocupes, esto tiene solución rápida y no afecta al código en sí.
-
-Aquí tienes cómo actualizar tu README.md paso a paso. Puedes hacerlo directamente desde la página de GitHub (es lo más rápido ahora que tienes prisa) o desde VS Code.
-
-🚀 Cómo editar el README desde GitHub (Súper rápido)
-Ve a la página principal de tu repositorio en GitHub.
-
-Verás un archivo llamado README.md. A la derecha de ese archivo, haz clic en el icono del lápiz (Edit this file).
-
-Borra todo el texto que haya y pega el siguiente (puedes personalizarlo con los nombres de ustedes):
-
-markdown
 # MirrorAI: Tu Asesor de Estilo Personal 🪞👗
 
 **MirrorAI** es una aplicación web interactiva que utiliza la visión artificial y el procesamiento de lenguaje natural de **Google Gemini** para actuar como tu estilista personal. 
