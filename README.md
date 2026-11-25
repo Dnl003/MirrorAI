@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MirrorAI: Tu Asesor de Estilo Personal 🪞👗
 
-## Getting Started
+**MirrorAI** es una aplicación web interactiva que utiliza la visión artificial y el procesamiento de lenguaje natural de **Google Gemini** para actuar como tu estilista personal. 
 
-First, run the development server:
+A través de la cámara web, el espejo analiza tu atuendo, te da consejos de moda personalizados (con un toque de humor) y te responde en voz alta. También puedes hablarle usando el micrófono para pedirle consejos específicos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tecnologías Utilizadas
+- **Framework:** Next.js (App Router)
+- **Estilos:** Tailwind CSS
+- **IA:** Google Gemini (vía `@google/genai`)
+- **APIs del Navegador:** WebRTC (Cámara), Web Speech API (Micrófono), SpeechSynthesis (Voz)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Cómo ejecutar este proyecto localmente
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Para probar este proyecto en tu propia máquina, sigue estos pasos:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/Dnl003/mirror-ai-estilista.git
+   cd mirror-ai-estilista
