@@ -27,7 +27,7 @@ Crea un archivo en la raíz del proyecto llamado exactamente .env.local
 
 Dentro de ese archivo, agrega la siguiente línea con tu propia clave de Google AI Studio:
 
-env
+
 GEMINI_API_KEY=tu_clave_de_api_aqui
 (Puedes obtener una clave gratuita en Google AI Studio).
 
