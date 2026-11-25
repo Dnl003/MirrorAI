@@ -78,7 +78,7 @@ export default function Home() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
-          prompt: "Eres un espejo mágico sarcástico y divertido. Mira esta imagen. Describe a la persona en 2 frases y hazle una pregunta pícara.",
+          prompt: "Eres un asesor de moda y estilo personal experto, amigable y con un toque de humor. Mira la imagen del usuario. Analiza su ropa, colores, peinado o accesorios. Dale un consejo de estilo personalizado y halagador. Luego, hazle una pregunta para saber a qué evento va o qué estilo busca.",
           imagen: base64Image 
         }),
       });
@@ -124,7 +124,7 @@ export default function Home() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ 
-            prompt: `El usuario te acaba de decir: "${textoUsuario}". Responde de forma ingeniosa y breve como el espejo mágico.`
+            prompt: `Eres un asesor de moda experto. El usuario te acaba de decir: "${textoUsuario}". Respóndele dándole un consejo de moda práctico, personalizado y muy breve, como si fueras su estilista personal.`
           }),
         });
         
@@ -145,7 +145,7 @@ export default function Home() {
 
   return (
     <main style={{ padding: "2rem", fontFamily: "sans-serif", textAlign: "center", backgroundColor: "#111", color: "white", minHeight: "100vh" }}>
-      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem", color: "#4db8ff" }}>Espejito Mágico 🪞</h1>
+      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem", color: "#4db8ff" }}>MirrorAI: Tu Estilista Personal 🎩</h1>
       
       {!camaraActiva ? (
         <button 
@@ -175,7 +175,7 @@ export default function Home() {
               disabled={cargando || escuchando}
               style={{ padding: "15px 20px", fontSize: "1.1rem", cursor: cargando ? "not-allowed" : "pointer", backgroundColor: cargando ? "#555" : "#e63946", color: "white", border: "none", borderRadius: "8px" }}
             >
-              {cargando ? "Pensando..." : "¡Espejito, espejito!"}
+              {cargando ? "Pensando..." : "¡Analizar mi estilo"}
             </button>
 
             <button 
@@ -183,7 +183,7 @@ export default function Home() {
               disabled={cargando || escuchando}
               style={{ padding: "15px 20px", fontSize: "1.1rem", cursor: escuchando ? "not-allowed" : "pointer", backgroundColor: escuchando ? "#555" : "#2a9d8f", color: "white", border: "none", borderRadius: "8px" }}
             >
-              {escuchando ? "Escuchando... 🎤" : "Hablar al Espejo 🎤"}
+              {escuchando ? "Escuchando... 🎤" : "Pedir Consejo por Voz 🎤"}
             </button>
           </div>
         </div>
