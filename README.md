@@ -16,9 +16,7 @@ A través de la cámara web, el espejo analiza tu atuendo, te da consejos de mod
 Para probar este proyecto en tu propia máquina, sigue estos pasos:
 
 1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/Dnl003/mirror-ai-estilista.git
-   cd mirror-ai-estilista
+
 Instala las dependencias:
 
 bash
