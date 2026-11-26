@@ -19,8 +19,6 @@ Para probar este proyecto en tu propia máquina, sigue estos pasos:
 
 2. **Instala las dependencias**:
 
-- bash
-
 - npm install
 
 3. **Configura tu API Key de Gemini:**
@@ -34,7 +32,6 @@ GEMINI_API_KEY=tu_clave_de_api_aqui
 
 4. Inicia el servidor de desarrollo:
 
-bash
-npm run dev
+- npm run dev
 Abre la aplicación:
 Ve a http://localhost:3000 en tu navegador (recomendado: Chrome o Edge). Asegúrate de darle permisos a la cámara y al micrófono cuando el navegador lo solicite.
