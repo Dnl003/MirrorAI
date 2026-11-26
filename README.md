@@ -21,7 +21,7 @@ Instala las dependencias:
 
 bash
 npm install
-Configura tu API Key de Gemini (¡CRÍTICO!):
+Configura tu API Key de Gemini:
 
 Crea un archivo en la raíz del proyecto llamado exactamente .env.local
 
