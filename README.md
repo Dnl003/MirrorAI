@@ -15,23 +15,24 @@ A través de la cámara web, el espejo analiza tu atuendo, te da consejos de mod
 
 Para probar este proyecto en tu propia máquina, sigue estos pasos:
 
-1. **Clona el repositorio:**
+1. **Clona el repositorio**
 
-Instala las dependencias:
+2. **Instala las dependencias**:
 
-bash
-npm install
-Configura tu API Key de Gemini:
+- bash
 
-Crea un archivo en la raíz del proyecto llamado exactamente .env.local
+- npm install
 
-Dentro de ese archivo, agrega la siguiente línea con tu propia clave de Google AI Studio:
+3. **Configura tu API Key de Gemini:**
 
+- Crea un archivo en la raíz del proyecto llamado exactamente .env.local
+
+- Dentro de ese archivo, agrega la siguiente línea con tu propia clave de Google AI Studio:
 
 GEMINI_API_KEY=tu_clave_de_api_aqui
 (Puedes obtener una clave gratuita en Google AI Studio).
 
-Inicia el servidor de desarrollo:
+4. Inicia el servidor de desarrollo:
 
 bash
 npm run dev
