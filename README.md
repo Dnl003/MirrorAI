@@ -17,7 +17,7 @@ Para probar este proyecto en tu propia máquina, sigue estos pasos:
 
 1. **Clona el repositorio**
 - *Debes tener intalado Git en tu computadora y tu cuenta de GitHub*
-- git clone https://github.com/Dnl003/MirrorAI.git
+- git clone https://github.com/Dnl003/MirrorAI.git (copia y pega)
 
 2. **Instala las dependencias**:
 
@@ -25,7 +25,7 @@ Para probar este proyecto en tu propia máquina, sigue estos pasos:
 
 3. **Configura tu API Key de Gemini:**
 
-- Crea un archivo en la raíz del proyecto llamado exactamente **.env.local**
+- Crea un archivo en la raíz del proyecto llamado exactamente "**.env.local**"
 
 - Dentro de ese archivo, agrega la siguiente línea con tu propia clave de Google AI Studio:
 
